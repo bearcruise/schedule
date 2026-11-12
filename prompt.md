@@ -35,6 +35,7 @@
     * Heading:  Scarlet New Years BearCruise Ahoy!
     * Subheading:  5-nights, December 30, 2026 – January 4, 2027
     * Subheading:  Virgin Voyage's Scarlet Lady
+* Display the subheadings in bold text.
 
 ## App data
 
