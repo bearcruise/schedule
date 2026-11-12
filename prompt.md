@@ -30,7 +30,7 @@
 * When choosing colors, use the following color scheme:  dark brown, tan, orange, yellow, light grey, dark gray
 
 ## Header
-* Display file BearCruiseLogo.jpg at the top of the page.  Size the image as needed.
+* Display file `images/BearCruiseLogo-medium.jpg` at the top of the page.  Size the image as needed.
 * Headings to display after the logo:
     * Heading:  Scarlet New Years BearCruise Ahoy!
     * Subheading:  5-nights, December 30, 2026 – January 4, 2027
@@ -80,8 +80,8 @@
     Home 2 Suites by Hilton, Downtown Fort Lauderdale
     315 NW 1st Ave, Fort Lauderdale, FL 33301
 * Telephone:  954-769-9982
-* Map thumbnail:  Map-host-hotel.png
-    * Display a small thumbnail version of Map-host-hotel.png
+* Map thumbnail:  `thumbnails/Map-Hilton-FLL-host-hotel.png`
+    * Display a small thumbnail version of `thumbnails/Map-Hilton-FLL-host-hotel.png`.
     * When clicked, go to https://www.google.com/maps/dir//Home2+Suites+by+Hilton+Fort+Lauderdale+Downtown,+315+NW+1st+Ave,+Fort+Lauderdale,+FL+33301/@26.125778,-80.1447232,17z/data=!4m19!1m10!3m9!1s0x88d900ffa230b571:0xb477947ef7f543bb!2sHome2+Suites+by+Hilton+Fort+Lauderdale+Downtown!5m2!4m1!1i2!8m2!3d26.125778!4d-80.1447232!16s%2Fg%2F11jqp6kvl9!4m7!1m0!1m5!1m1!1s0x88d900ffa230b571:0xb477947ef7f543bb!2m2!1d-80.1447232!2d26.125778?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D
     * Below the thumbnail image in very small text, include caption:  Tap to open in Google Maps
         * This is plain text and not a link.
@@ -94,8 +94,8 @@
     Terminal V - Virgin Voyages
     718 N Cruise Blvd, Miami, FL 33132
 * Telephone:  954-488-2955
-* Map thumbnail:  Map-Port-of-Miami.png
-    * Display a small thumbnail version of Map-Port-of-Miami.png
+* Map thumbnail:  `thumbnails/Map-Virgin-Port-of-Miami.png`
+    * Display a small thumbnail version of `thumbnails/Map-Virgin-Port-of-Miami.png`
     * When clicked, go to https://www.google.com/maps/dir/Terminal+V+-+Virgin+Voyages.,+718+N+Cruise+Blvd,+Miami,+FL+33132//@25.7797521,-80.1800384,16.98z/data=!4m8!4m7!1m5!1m1!1s0x88d9b5b26c3b543b:0xd77c13c6da5e31ca!2m2!1d-80.1799906!2d25.779799!1m0?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D
     * Below the thumbnail image in very small text, include caption:  Tap to open in Google Maps
         * This is plain text and not a link.
@@ -107,8 +107,8 @@
     Terminal V - Virgin Voyages
     718 N Cruise Blvd, Miami, FL 33132
 * Telephone:  954-488-2955
-* Map thumbnail:  Map-Port-of-Miami.png
-    * Display a small thumbnail version of Map-Port-of-Miami.png
+* Map thumbnail:  `thumbnails/Map-Virgin-Port-of-Miami.png`
+    * Display a small thumbnail version of `thumbnails/Map-Virgin-Port-of-Miami.png`
     * When clicked, go to https://www.google.com/maps/dir//Terminal+V+-+Virgin+Voyages.,+718+N+Cruise+Blvd,+Miami,+FL+33132/@25.7797521,-80.1800384,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88d9b5b26c3b543b:0xd77c13c6da5e31ca!2m2!1d-80.1799906!2d25.779799?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D
     * Below the thumbnail image in very small text, include caption:  Tap to open in Google Maps
         * This is plain text and not a link.

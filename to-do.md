@@ -16,6 +16,7 @@
 
 * Add Virgin ship info
     * Copy for VV site since their site is so slow
+* Add "last updated" timestamp
 
 ## Mobile only
 
