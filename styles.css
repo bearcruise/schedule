@@ -1,0 +1,247 @@
+/* Color scheme: dark brown, tan, orange, yellow, light grey, dark gray */
+:root {
+  --brown: #3b2314; /* dark brown */
+  --tan: #d2b48c;
+  --orange: #e8832a;
+  --yellow: #f6c645;
+  --light-grey: #ececec;
+  --dark-grey: #3d3d3d;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--light-grey);
+  color: var(--dark-grey);
+  font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--brown);
+  font-weight: 600;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+a:focus-visible {
+  outline: 3px solid var(--yellow);
+  outline-offset: 2px;
+}
+
+/* Header: logo and headings (the logo has a white background, so the header is white). */
+.site-header {
+  background: var(--white);
+  border-bottom: 6px solid var(--orange);
+  text-align: center;
+  padding: 12px 16px 20px;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto 8px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 1.75rem;
+  color: var(--brown);
+}
+
+.subtitle {
+  margin: 4px 0 0;
+  color: var(--dark-grey);
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 32px;
+}
+
+.picker {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 24px;
+}
+
+.picker label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--brown);
+}
+
+.picker select {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  color: var(--dark-grey);
+  background: var(--white);
+  border: 2px solid var(--tan);
+  border-radius: 10px;
+}
+
+.picker select:focus-visible {
+  outline: 3px solid var(--yellow);
+  outline-offset: 2px;
+  border-color: var(--orange);
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+  padding: 16px 18px;
+  background: var(--white);
+  border-left: 6px solid var(--orange);
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(61, 61, 61, 0.15);
+}
+
+.entry-date {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--dark-grey);
+}
+
+.entry-time {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 10px;
+  font-weight: 700;
+  color: var(--brown);
+  background: var(--yellow);
+  border-radius: 999px;
+}
+
+.entry-description {
+  margin: 0 0 4px;
+  font-size: 1.2rem;
+  color: var(--brown);
+}
+
+.entry-location {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--orange);
+}
+
+.entry-details {
+  margin: 0;
+}
+
+/* Additional info sits below the date details and spans the full card width. */
+.entry-info {
+  grid-column: 1 / -1;
+  margin-top: 6px;
+  padding: 12px 14px;
+  background: var(--light-grey);
+  border-left: 4px solid var(--tan);
+  border-radius: 8px;
+}
+
+.entry-info-title {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: var(--brown);
+}
+
+/* Simple list with no bullets. */
+.entry-info-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.entry-info-list > li {
+  margin: 0 0 6px;
+}
+
+/* Small map thumbnail (linked) with a plain-text caption below it. */
+.entry-info-thumb-figure {
+  display: inline-block;
+  margin: 6px 0 0;
+}
+
+.entry-info-thumb-link {
+  display: block;
+}
+
+.entry-info-thumb {
+  display: block;
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid var(--tan);
+  border-radius: 8px;
+}
+
+.entry-info-thumb-link:hover .entry-info-thumb {
+  border-color: var(--orange);
+}
+
+/* Very small caption below the thumbnail (not a link). */
+.entry-info-thumb-caption {
+  margin-top: 2px;
+  font-size: 0.65rem;
+  font-weight: 400;
+  color: var(--dark-grey);
+}
+
+/* Footer */
+.site-footer {
+  padding: 20px 16px 32px;
+  text-align: center;
+  background: var(--brown);
+}
+
+.site-footer a {
+  color: var(--yellow);
+}
+
+.site-footer a:hover {
+  color: var(--tan);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Tablets and laptops: larger logo, date and time beside the details. */
+@media (min-width: 600px) {
+  .logo {
+    max-width: 440px;
+  }
+
+  .page-title {
+    font-size: 2.1rem;
+  }
+
+  .entry {
+    grid-template-columns: 200px 1fr;
+    gap: 20px;
+  }
+}
