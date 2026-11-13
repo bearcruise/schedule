@@ -284,6 +284,32 @@ a:focus-visible {
   list-style: none;
 }
 
+.site-footer .copyright {
+  margin: 16px 0 0;
+  font-size: 0.8rem;
+  color: var(--tan);
+}
+
+/* About page */
+.about h2 {
+  margin: 24px 0 8px;
+  color: var(--brown);
+}
+
+.about-subheading {
+  margin: 12px 0 4px;
+  font-weight: 700;
+}
+
+.about ul {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.about li {
+  margin: 0 0 6px;
+}
+
 /* Tablets and laptops: larger logo, date and time beside the details. */
 @media (min-width: 600px) {
   .logo {
