@@ -115,6 +115,14 @@ h3,
   gap: 12px;
 }
 
+/* Ports of call in small text in #af4945 below the ship images. */
+.ship-route {
+  margin: 10px 0 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #af4945;
+}
+
 /* Small plain-text caption below the ship images (the whole box is clickable, the caption is not a link). */
 .ship-caption {
   margin: 8px 0 0;
@@ -352,6 +360,10 @@ h3,
 .ship h2 {
   margin: 24px 0 8px;
   color: var(--brown);
+}
+
+.small-text {
+  font-size: 0.8rem;
 }
 
 .ship-photo {

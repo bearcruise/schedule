@@ -80,9 +80,11 @@
     * Image:  `virgin-voyages/VV-Logo.jpg`.  Scale the image to 15% of the original size.
     * Image:  `virgin-voyages/ScarletLady-icon.jpg`.  Scale the image to 50% of the original size.
     * Display both images side by side with no wrap.
-    * Below the images in small text, include caption:  Tap for ship details
+    * Below the images in small text, include text:  Miami | Puerto Plata | Bimini | Miami
+        * Display the text in color "#af4945".
+    * Include a caption in small text, include text:  Tap for details
         * This is plain text and not a link.
-        * When clicked/tapped, display the "The Ship" page.
+        * When any part of the "Ship info" is clicked/tapped, display the "The Ship" page.
 * Display the "Ship info" in the same rounded box used for the header.
 
 ### Schedule
@@ -171,10 +173,16 @@
 
 * Image:  `virgin-voyages/ScarletLady-ship.jpg`
 
+### Itinerary
+
+* Image: `2026-12-Scarlet-New-Years/itinerary-map.jpg`
+
 ### Deck plans
 
 * Link to `virgin-voyages/ScarletLadyDeckPlans_V7.pdf`
     * Open link in a new browser tab.
+* Text: On a mobile device, swipe from the left to exit the deck plans.
+    * Display in small text.
 
 ### Ship stats
 
