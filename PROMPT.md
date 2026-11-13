@@ -6,6 +6,7 @@
 * You use industry standard techniques and best practices.
 * You create files that are easy to understand.
 
+
 ## App details
 
 * The app is a schedule of events.
@@ -56,10 +57,12 @@
     }
     ```
 
+
 ## Design
 
 * When choosing colors, use the following color scheme:  dark brown, tan, orange, yellow, light grey, dark gray
 * Display all headings and subheadings in the custom font.
+
 
 ## Header
 * Display file `images/BearCruiseLogo-bearpaw.jpg` at the top of the page.  Size the image as needed.
@@ -67,6 +70,7 @@
     * Heading:  Scarlet New Years BearCruise Ahoy!
     * Subheading:  5-nights, December 30, 2026 – January 4, 2027
 * As a background to the header, display image `2026-12-Scarlet-New-Years/2027-Web-Page-Background.jpg`.
+
 
 ## App data
 
@@ -76,6 +80,10 @@
     * Image:  `virgin-voyages/VV-Logo.jpg`.  Scale the image to 15% of the original size.
     * Image:  `virgin-voyages/ScarletLady-icon.jpg`.  Scale the image to 50% of the original size.
     * Display both images side by side with no wrap.
+    * Below the images in small text, include caption:  Tap for ship details
+        * This is plain text and not a link.
+        * When clicked/tapped, display the "The Ship" page.
+* Display the "Ship info" in the same rounded box used for the header.
 
 ### Schedule
 
@@ -156,10 +164,36 @@
         * This is plain text and not a link.
 * Do not include any bullets when displaying this info.  Use HTML simple lists instead.
 
+
+## The Ship
+
+### Virgin Voyages Scarlet Lady
+
+* Image:  `virgin-voyages/ScarletLady-ship.jpg`
+
+### Deck plans
+
+* Link to `virgin-voyages/ScarletLadyDeckPlans_V7.pdf`
+    * Open link in a new browser tab.
+
+### Ship stats
+
+* Text:  If you find yourself competing in one the ship's trivia events, here are some Virgin Voyages cruise ship stats that could win you the champion title.
+* Image:  `virgin-voyages/Ship-facts.jpg`
+    * Horizontally center the image on the screen.
+
+### Official website
+
+* Link to https://www.virginvoyages.com.
+    * Open the link in a new browser tab.
+    * Use "virginvoyages.com" for the link text.
+
+
 ## Closing
 
 * Add text:  BearCruise.com The most trusted name in gay travel.&#8480;
     * Between "BearCruise.com" and "The", insert image `images/bearpaw.png`.
+
 
 ## Footer
 
@@ -169,7 +203,8 @@
     * [Telegram channel](https://t.me/+3h3e7zQrebdjYTZh)
     * About:  Link to About.
 * Copyright:
-    * &copy; Copyright 2027 BearCruise.com
+    * &copy; Copyright 2026 BearCruise.com
+
 
 ## About
 
@@ -201,21 +236,23 @@
 
 ### Copyright
 
-* &copy; Copyright 2027 BearCruise.com
+* &copy; Copyright 2026 BearCruise.com
 * Other images, copyrights, trademarks, and service marks are the property of the respective owners.
 * All content is protected by copyright, trademark, and other laws of the United States and/or other jurisdictions.
 
 ### Last update
 
 * Include a static timestamp:
-    * Use the current time of when the page was last generated.
-    * Display the timestamp like "Friday, November 13, 2026 at 13:15:23 US/Eastern".
+    * Use the current time of when any page or file was last generated.
+    * Display the timestamp like "Friday, November 13, 2026 at 13:15:23 UTC".
+    * Be sure that the timestamp value is correct for the UTC timezone regardless of the current timezone in the system.
+
 
 ## App layout
 
 * Layout the app in this order
     * Header
     * App data
-        * If a date has addition info, display the info below the date details.
+        * If a date has additional info, display the info below the date details.
     * Closing
     * Footer

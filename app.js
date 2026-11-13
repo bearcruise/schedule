@@ -433,5 +433,17 @@
     renderDay(select.value);
   });
 
+  // The ship info box opens "The Ship" page when clicked/tapped (or activated with the keyboard).
+  var shipInfo = document.getElementById("ship-info");
+  shipInfo.addEventListener("click", function () {
+    window.location.href = "ship.html";
+  });
+  shipInfo.addEventListener("keydown", function (event) {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      window.location.href = "ship.html";
+    }
+  });
+
   renderDay(select.value);
 })();
