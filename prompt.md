@@ -36,13 +36,15 @@
     * Heading:  Scarlet New Years BearCruise Ahoy!
     * Subheading:  5-nights, December 30, 2026 – January 4, 2027
     * Subheading:
-        * File:  `virgin-voyages/VV-Logo.jpg`.  Scale the image to 15% of the original size.
-        * Text:  Scarlet Lady
+        * Image:  `virgin-voyages/VV-Logo.jpg`.  Scale the image to 15% of the original size.
+        * Image:  `virgin-voyages/ScarletLady-icon.jpg`.  Scale the image to 50% of the original size.
+        * Display both images side by side with no wrap.
 * Display the subheadings in bold text.
+* As a background to the header, display image `2026-12-Scarlet-New-Years/2027-Web-Page-Background.jpg`.
 
 ## App data
 
-* The schedule data for each day is extracted from `2026 27 BearCruise Scarlet New Years Itinerary.docx`:
+* The schedule data for each day is extracted from `2026-12-Scarlet-New-Years/2026 27 BearCruise Scarlet New Years Itinerary.docx`:
 
 | Date                         | Time               | Description                                             | Location                                                         | Details                                                                                                                                                                                                                                       | Additional Info                       |
 |------------------------------|--------------------|---------------------------------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
@@ -100,7 +102,7 @@
     718 N Cruise Blvd, Miami, FL 33132
 * Telephone:  954-488-2955
 * Map thumbnail:  `thumbnails/Map-Virgin-Port-of-Miami.png`
-    * Display a small thumbnail version of `thumbnails/Map-Virgin-Port-of-Miami.png`
+    * Display a small thumbnail version of `thumbnails/Map-Virgin-Port-of-Miami.png`.
     * When clicked, go to https://www.google.com/maps/dir/Terminal+V+-+Virgin+Voyages.,+718+N+Cruise+Blvd,+Miami,+FL+33132//@25.7797521,-80.1800384,16.98z/data=!4m8!4m7!1m5!1m1!1s0x88d9b5b26c3b543b:0xd77c13c6da5e31ca!2m2!1d-80.1799906!2d25.779799!1m0?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D
     * Below the thumbnail image in very small text, include caption:  Tap to open in Google Maps
         * This is plain text and not a link.
@@ -113,11 +115,16 @@
     718 N Cruise Blvd, Miami, FL 33132
 * Telephone:  954-488-2955
 * Map thumbnail:  `thumbnails/Map-Virgin-Port-of-Miami.png`
-    * Display a small thumbnail version of `thumbnails/Map-Virgin-Port-of-Miami.png`
+    * Display a small thumbnail version of `thumbnails/Map-Virgin-Port-of-Miami.png`.
     * When clicked, go to https://www.google.com/maps/dir//Terminal+V+-+Virgin+Voyages.,+718+N+Cruise+Blvd,+Miami,+FL+33132/@25.7797521,-80.1800384,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88d9b5b26c3b543b:0xd77c13c6da5e31ca!2m2!1d-80.1799906!2d25.779799?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D
     * Below the thumbnail image in very small text, include caption:  Tap to open in Google Maps
         * This is plain text and not a link.
 * Do not include any bullets when displaying this info.  Use HTML simple lists instead.
+
+## Closing
+
+* Add text:  BearCruise.com The most trusted name in gay travel.&#8482;
+    * Between "BearCruise.com" and "The", insert image `images/bearpaw.jpg`.
 
 ## Footer
 
@@ -132,4 +139,5 @@
     * Header
     * App data
         * If a date has addition info, display the info below the date details.
+    * Closing
     * Footer
