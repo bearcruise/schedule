@@ -25,24 +25,59 @@
 * Use a publicly available HTML widget library only if it's available for free from a public CDN URL.
 * The app should be formatted for mobile phones and tablets but still look good if used on a laptop's web browser.
 * Title the app "BearCruise".
+* In the generated `index.html` file:
+    * In the `<head>` tag:
+        * Include the favicon definition:
+            ```html
+            <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+            <link rel="manifest" href="favicon_io/site.webmanifest">
+            ```
+        * Include the custom font font definition:
+            ```html
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap" rel="stylesheet">
+            ```
+* In the generated `styles.css` file:
+    * Define the custom font font:
+    ```css
+    .bevan-regular {
+        font-family: "Bevan", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .bevan-regular-italic {
+        font-family: "Bevan", serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+    ```
 
 ## Design
 
 * When choosing colors, use the following color scheme:  dark brown, tan, orange, yellow, light grey, dark gray
+* Display all headings and subheadings in the custom font.
 
 ## Header
 * Display file `images/BearCruiseLogo-bearpaw.jpg` at the top of the page.  Size the image as needed.
 * Headings to display after the logo:
     * Heading:  Scarlet New Years BearCruise Ahoy!
     * Subheading:  5-nights, December 30, 2026 – January 4, 2027
-    * Subheading:
-        * Image:  `virgin-voyages/VV-Logo.jpg`.  Scale the image to 15% of the original size.
-        * Image:  `virgin-voyages/ScarletLady-icon.jpg`.  Scale the image to 50% of the original size.
-        * Display both images side by side with no wrap.
-* Display the subheadings in bold text.
 * As a background to the header, display image `2026-12-Scarlet-New-Years/2027-Web-Page-Background.jpg`.
 
 ## App data
+
+### Sailing on
+
+* Ship info:
+    * Image:  `virgin-voyages/VV-Logo.jpg`.  Scale the image to 15% of the original size.
+    * Image:  `virgin-voyages/ScarletLady-icon.jpg`.  Scale the image to 50% of the original size.
+    * Display both images side by side with no wrap.
+
+### Schedule
 
 * The schedule data for each day is extracted from `2026-12-Scarlet-New-Years/2026 27 BearCruise Scarlet New Years Itinerary.docx`:
 
@@ -168,8 +203,13 @@
 
 * &copy; Copyright 2027 BearCruise.com
 * Other images, copyrights, trademarks, and service marks are the property of the respective owners.
-* All Content is protected by copyright, trademark, and other laws of the United States and/or other jurisdictions.
+* All content is protected by copyright, trademark, and other laws of the United States and/or other jurisdictions.
 
+### Last update
+
+* Include a static timestamp:
+    * Use the current time of when the page was last generated.
+    * Display the timestamp like "Friday, November 13, 2026 at 13:15:23 US/Eastern".
 
 ## App layout
 

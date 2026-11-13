@@ -67,18 +67,36 @@ a:focus-visible {
 
 .subtitle {
   margin: 4px 0 0;
-  font-weight: 700;
   color: var(--dark-grey);
 }
 
-/* Virgin Voyages logo (15% of original width) and ship icon (50%), side by side without wrapping. */
-.vv-subheading {
+/* "Bevan" is loaded from Google Fonts; it has a single (regular) weight, in upright and italic styles.
+   Used for all headings and subheadings. */
+.bevan-regular,
+h1,
+h2,
+h3,
+.subtitle,
+.about-subheading {
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bevan-regular-italic {
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Ship info above the day picker: Virgin Voyages logo (15% of original width) and ship icon (50%), side by side without wrapping. */
+.ship-info {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 12px;
-  margin-top: 6px;
+  margin: 0 0 24px;
 }
 
 .vv-logo,
@@ -94,6 +112,13 @@ a:focus-visible {
 
 .vv-ship-icon {
   flex: 0 1 78px;
+}
+
+/* Headings for the "Sailing on" and "Schedule" sections of the app data. */
+.section-heading {
+  margin: 0 0 12px;
+  font-size: 1.3rem;
+  color: var(--brown);
 }
 
 .container {
@@ -298,7 +323,6 @@ a:focus-visible {
 
 .about-subheading {
   margin: 12px 0 4px;
-  font-weight: 700;
 }
 
 .about ul {
