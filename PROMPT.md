@@ -173,7 +173,7 @@
 
 * Image:  `virgin-voyages/ScarletLady-ship.jpg`
 
-### Itinerary
+### Route map
 
 * Image: `2026-12-Scarlet-New-Years/itinerary-map.jpg`
 
