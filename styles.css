@@ -63,6 +63,22 @@ a:focus-visible {
   color: var(--dark-grey);
 }
 
+.vv-subheading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin-top: 6px;
+}
+
+.vv-logo {
+  display: block;
+  width: 100%;
+  max-width: 225px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .container {
   max-width: 720px;
   margin: 0 auto;

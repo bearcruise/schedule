@@ -22,24 +22,27 @@
 * All data is hard-coded within the generated app.
 * Display the data in a modern style UI.
 * Use standard CSS styling conventions.
-* Use a publicly available HTML widget library only if it's available from free from a public CDN URL.
+* Use a publicly available HTML widget library only if it's available for free from a public CDN URL.
 * The app should be formatted for mobile phones and tablets but still look good if used on a laptop's web browser.
+* Title the app "BearCruise".
 
 ## Design
 
 * When choosing colors, use the following color scheme:  dark brown, tan, orange, yellow, light grey, dark gray
 
 ## Header
-* Display file `images/BearCruiseLogo-medium.jpg` at the top of the page.  Size the image as needed.
+* Display file `images/BearCruiseLogo-bearpaw.jpg` at the top of the page.  Size the image as needed.
 * Headings to display after the logo:
     * Heading:  Scarlet New Years BearCruise Ahoy!
     * Subheading:  5-nights, December 30, 2026 – January 4, 2027
-    * Subheading:  Virgin Voyage's Scarlet Lady
+    * Subheading:
+        * File:  `virgin-voyages/VV-Logo.jpg`.  Scale the image to 15% of the original size.
+        * Text:  Scarlet Lady
 * Display the subheadings in bold text.
 
 ## App data
 
-* The schedule data for each day is extracted from `2026 27 BearCruise Scarlet New Years Itinerary.pdf`:
+* The schedule data for each day is extracted from `2026 27 BearCruise Scarlet New Years Itinerary.docx`:
 
 | Date                         | Time               | Description                                             | Location                                                         | Details                                                                                                                                                                                                                                       | Additional Info                       |
 |------------------------------|--------------------|---------------------------------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
@@ -68,7 +71,8 @@
 | Saturday, January 2, 2027    | 10:00 am           | Coffee Klatch                                           | The Grounds Club, Deck 7 starboard, midship                      | For you early risers with caffeine additions, meet at The Grounds Club for specialty coffee. OR sleep in!                                                                                                                                     |                                       |
 | Saturday, January 2, 2027    | 12:00 pm           | Bear Lunch                                              | The Galley Food Hall, Deck 15 aft                                | Join others for lunch at The Galley Food Hall (or try Razzle Dazzle, The Wake, The Dock / Dock House, The Social Club, The Pizza Place, or The Sun Club).                                                                                     |                                       |
 | Saturday, January 2, 2027    | 4:00 pm            | Pool & Hot Tub Takeover                                 | Deck 15 (Pool Deck)                                              | We will take over the large round hot tub near the bar.                                                                                                                                                                                       |                                       |
-| Saturday, January 2, 2027    | 6:00 pm – 7:00 pm  | Cocktail Hour                                           | The Dock House Bar / The Dock, Deck 7 aft                        | Pre-dinner cocktail hour, followed by ship shows and activities after dinner.                                                                                                                                                                 |                                       |
+| Saturday, January 2, 2027    | 6:00 pm – 7:00 pm  | Cocktail Hour                                           | The Dock House Bar / The Dock, Deck 7 aft                        | Pre-dinner cocktail hour, followed by ship shows and activities after dinner.                                                                                                                                  |                                       |
+| Sunday, January 3, 2027      |                    | Happy Birthday to Gillyano Neves!                       |                                                                  |                                                                                                                                                                                                               |                                       |
 | Sunday, January 3, 2027      | 9:00 am – 6:00 pm  | Bimini Beach Club Day                                   | Bimini Beach Club, Bahamas                                       | Exit the ship and take the free tram to the beach club. Pro Tip: Go early for the best lounge chair locations. Turn left at the pool for the quieter side; the DJ is to the right.                                                            |                                       |
 | Sunday, January 3, 2027      | 4:00 pm            | Pool & Hot Tub Takeover                                 | Deck 15 (Pool Deck)                                              | Pool and hot tub gathering on the pool deck.                                                                                                                                                                                                  |                                       |
 | Sunday, January 3, 2027      | 6:00 pm – 7:00 pm  | Cocktail Hour                                           | The Dock House Bar / The Dock, Deck 7 aft                        | Pre-dinner cocktail hour.                                                                                                                                                                                                                     |                                       |
@@ -87,7 +91,7 @@
     * Below the thumbnail image in very small text, include caption:  Tap to open in Google Maps
         * This is plain text and not a link.
 * [Hotel website](https://www.hilton.com/en/hotels/fllhtht-home2-suites-fort-lauderdale-downtown/?SEO_id=GMB-AMER-HT-FLLHTHT)
-* Do not include any bullets when display this info.  Use HTML simple lists instead.
+* Do not include any bullets when displaying this info.  Use HTML simple lists instead.
 
 ### Port of Miami departure
 
@@ -100,7 +104,7 @@
     * When clicked, go to https://www.google.com/maps/dir/Terminal+V+-+Virgin+Voyages.,+718+N+Cruise+Blvd,+Miami,+FL+33132//@25.7797521,-80.1800384,16.98z/data=!4m8!4m7!1m5!1m1!1s0x88d9b5b26c3b543b:0xd77c13c6da5e31ca!2m2!1d-80.1799906!2d25.779799!1m0?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D
     * Below the thumbnail image in very small text, include caption:  Tap to open in Google Maps
         * This is plain text and not a link.
-* Do not include any bullets when display this info.  Use HTML simple lists instead.
+* Do not include any bullets when displaying this info.  Use HTML simple lists instead.
 
 ### Port of Miami arrival
 
@@ -113,7 +117,7 @@
     * When clicked, go to https://www.google.com/maps/dir//Terminal+V+-+Virgin+Voyages.,+718+N+Cruise+Blvd,+Miami,+FL+33132/@25.7797521,-80.1800384,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88d9b5b26c3b543b:0xd77c13c6da5e31ca!2m2!1d-80.1799906!2d25.779799?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D
     * Below the thumbnail image in very small text, include caption:  Tap to open in Google Maps
         * This is plain text and not a link.
-* Do not include any bullets when display this info.  Use HTML simple lists instead.
+* Do not include any bullets when displaying this info.  Use HTML simple lists instead.
 
 ## Footer
 

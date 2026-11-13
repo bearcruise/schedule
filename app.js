@@ -255,6 +255,11 @@
     // Sunday, January 3, 2027 - Bimini Beach Club, Bahamas
     {
       date: "Sunday, January 3, 2027",
+      time: "",
+      description: "Happy Birthday to Gillyano Neves!"
+    },
+    {
+      date: "Sunday, January 3, 2027",
       time: "9:00 am – 6:00 pm",
       description: "Bimini Beach Club Day",
       location: "Bimini Beach Club, Bahamas",
