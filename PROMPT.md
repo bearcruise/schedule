@@ -182,6 +182,11 @@
 * Image:  `virgin-voyages/Ship-facts.jpg`
     * Horizontally center the image on the screen.
 
+### Mobile app
+
+* [Apple iOS mobile app](https://apps.apple.com/us/app/virgin-voyages/id6741017368) in Apple App Store
+* [Google Android mobile app](https://play.google.com/store/apps/details?id=com.virginvoyages.sailor.prod) in Google Play
+
 ### Official website
 
 * Link to https://www.virginvoyages.com.
@@ -217,10 +222,6 @@
 * Scroll down and tap **Add to Home Screen**.
 * Tap **Add**.
 
-**Virgin Voyages mobile app**
-
-* [Mobile app](https://apps.apple.com/us/app/virgin-voyages/id6741017368) in Apple App Store
-
 ### Google Android
 
 **Add web page to home screen**
@@ -229,10 +230,6 @@
 * Tap **Add to home screen** or **Install and create shortcut** (depending on your Chrome version).
 * Tap **Add** or **Install**.
 * If the shortcut does not appear on your home screen immediately, swipe up to open your App Drawer, press and hold the new icon, and drag it onto your home screen
-
-**Virgin Voyages mobile app**
-
-* [Mobile app](https://play.google.com/store/apps/details?id=com.virginvoyages.sailor.prod) in Google Play
 
 ### Copyright
 
